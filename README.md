@@ -26,7 +26,7 @@ To use it via console:
 
 -`python ping.py path/to/your/config.ini` - that way you can create different configs and use them
 
-`**config.ini**` structure:
+**`config.ini`** structure:
 
 in the example is user GMAIL SMTP server, you can use any server you like
 
