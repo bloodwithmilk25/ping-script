@@ -1,6 +1,8 @@
 **Script that goes through every site specified in `config.ini`
 and tries to reach it.**
 
+`pip install requests>=2`
+
 Script is meant to be set on cron schedule. In our company we set it to be ran every 15 minutes.
 
 If site can not be reached or responds with status code
