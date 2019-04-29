@@ -18,6 +18,12 @@ Log files stored in the same folder as `ping.py`. You can provide custom path fo
 
 On the first launch script will generate `sites_state.json`, which is used to keep track of previous checks.
 
+To use it via console:
+
+-`python ping.py` - will use script with default config.ini file(assuming that they are in the same folder)
+
+-`python ping.py path/to/your/config.ini` - that way you can create different configs and use them
+
 `**config.ini**` structure:
 
 in the example is user GMAIL SMTP server, you can use any server you like
