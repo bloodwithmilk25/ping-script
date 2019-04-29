@@ -28,7 +28,7 @@ To use it via console:
 
 **`config.ini`** structure:
 
-in the example is user GMAIL SMTP server, you can use any server you like
+in the example is use GMAIL SMTP server, you can use any server you like
 
 ```
 [EMAIL]
