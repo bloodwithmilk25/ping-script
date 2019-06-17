@@ -120,6 +120,9 @@ def ping(cfg):
     print(sites_state)
     json_output(sites_state)
 
-
+from time import time
 if __name__ == "__main__":
+    start = time()
     ping(sys.argv)
+    end = time()
+    print('Elapsed time: {}'.format(end - start))
